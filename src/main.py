@@ -1,9 +1,9 @@
 import asyncio
 
-from src.search_api_wrapper import SearchApiWrapper
-from src.utils.clients.httpClient import HttpClient
-from src.utils.data.data_parser import DataParser
-from src.utils.data.data_writer import DataWriterFactory
+from services.search_api_wrapper import SearchApiWrapper
+from utils.clients.httpClient import HttpClient
+from utils.data.data_parser import DataParser
+from utils.data.data_writer import DataWriterFactory
 
 from config.config import GENERAL_CONFIG
 

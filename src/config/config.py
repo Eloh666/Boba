@@ -5,7 +5,7 @@ AUTH_CONFIG = {
 GENERAL_CONFIG = {
     'write': True,
     'print': False,
-    'output_path': '../outputs',
+    'output_path': 'outputs',
     'file_name': 'tweets',
     'extension': 'json',
     'max_tweets_per_file': 10000,

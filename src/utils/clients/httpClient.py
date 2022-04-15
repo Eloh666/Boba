@@ -38,6 +38,7 @@ class HttpClient:
                 response, status_code = await resp.json(), resp.status
 
                 if status_code != 200:
+                    logger.error('Unable to get data')
                     logger.error("RH Call failed: {}: {}".format(status_code, response))
 
                     # Raise the appropriate exception
